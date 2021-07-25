@@ -31,9 +31,17 @@
     width: 95%;
     height: 400px;
     color: white;
+    font-size: 1.2em;
     text-align: center;
     margin: auto;
     margin-top: 50px;
+    display: flex;
     align-items: center;
 
+}
+.service div{
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
 }

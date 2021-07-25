@@ -78,4 +78,25 @@
 }
 .row div{
     width: fit-content;
+    padding: 10px;
+}
+
+.contact{
+    margin: auto;
+    margin-top: 50px;
+    background-image: url("assets/backgrounds/c_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 680px;
+    text-align: center;
+    vertical-align: middle;
+}
+.frm{
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+}
+form .row{
+    width: 100%;
+    margin: auto;
 }

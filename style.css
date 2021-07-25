@@ -45,3 +45,37 @@
     margin: auto;
     padding: 10px;
 }
+
+.wwd{
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+}
+.cons div{
+    width: 400px;
+}
+.info div{
+    width: 450px;
+    padding: 10px;
+}
+
+.portfolio{
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    margin-top: 50px;
+}
+.row{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.row div{
+    width: fit-content;
+}

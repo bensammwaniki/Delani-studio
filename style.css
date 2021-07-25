@@ -23,3 +23,17 @@
     background-color: rgba(192, 192, 192, 0.479);
     padding: 20px;
 }
+.service{
+    background-image: url("assets/backgrounds/s_image.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 30px;
+    width: 95%;
+    height: 400px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    align-items: center;
+
+}

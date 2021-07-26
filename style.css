@@ -107,6 +107,10 @@ body h1{
     height: 680px;
     text-align: center;    
     position: relative;
+    color: white;
+}
+.contact h1{
+    padding-top: 70px;
 }
 .frm{
     width: fit-content;

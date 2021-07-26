@@ -1,5 +1,6 @@
 $(document).ready(function(){
     $("#design").click(function(){
+        
       $("#designinfo").toggle("slow");
     });
     $("#dev").click(function(){

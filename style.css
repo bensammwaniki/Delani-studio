@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
 
-body h1{
+body h1,h4{
     font-family: 'Cinzel', serif;
 }
 .banner{
@@ -79,6 +79,9 @@ body h1{
 .info div{
     width: 450px;
     padding: 10px;
+}
+.hidden{
+    display: none;
 }
 /* portfolio section  */
 .portfolio{

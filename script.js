@@ -1,12 +1,14 @@
 $(document).ready(function(){
     $("#design").click(function(){
-        
+      $("#designimg").toggle("slow");    
       $("#designinfo").toggle("slow");
     });
     $("#dev").click(function(){
+        $("#devimg").toggle();      
         $("#devinfo").toggle();
       });
       $("#prod").click(function(){
+        $("#prodimg").toggle();
         $("#prodinfo").toggle();
       });
 

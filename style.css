@@ -23,6 +23,8 @@
     bottom: 20px;
     left: 48%;
 }
+
+/* about section */
 .about{
     margin: auto;
     margin-top: 50px;
@@ -31,6 +33,7 @@
     background-color: rgba(192, 192, 192, 0.479);
     padding: 20px;
 }
+/* .service section  */
 .service{
     background-image: url("assets/backgrounds/s_image.jpg");
     background-repeat: no-repeat;
@@ -72,7 +75,7 @@
     width: 450px;
     padding: 10px;
 }
-
+/* portfolio section  */
 .portfolio{
     width: fit-content;
     margin: auto;
@@ -89,7 +92,7 @@
     padding: 10px;
     position: relative;
 }
-
+/* contact section  */
 .contact{
     margin: auto;
     margin-top: 50px;
@@ -108,7 +111,30 @@
 form .row{
     width: 100%;
     margin: auto;
+    padding: 0px;
 }
+.row .col{
+    padding: 0px;
+    width: 47%;
+}
+form div{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+input[type=text] {
+    background:transparent;
+    color: white;
+  }
+input[type=email] {
+    background:transparent;
+    color: white;
+  }
+textarea[type=text] {
+    background:transparent;
+    color: black;
+  }
+
+/* footer section  */
 .footer{
     margin-top: 50px;
     margin-bottom: 50px;

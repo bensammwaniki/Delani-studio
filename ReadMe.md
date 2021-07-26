@@ -20,7 +20,7 @@ boostrap5}
 ## Support and contact details
 {for more info about the app and contribution email benson.mwaniki@student.moringaschool.com.
 Bensam Mwaniki}
-{to view the app click on this link -> }
+{to view the app click on this link ->https://bensammwaniki.github.io/Delani-studio/ }
 ### License
 *{mit licence.  See below for more details on licensing.}*
 Copyright (c) {2021} **{melenial agency}**

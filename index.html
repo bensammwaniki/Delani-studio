@@ -47,46 +47,42 @@
         <!-- what we do start -->
         <div class="wwd">
             <h1>What we do</h1>
-            <div class="icons cons">
-                <div id="design">
+            <div class="row icons cons">
+                <div class="col-md-4" id="design">
                     <img src="assets/services_icons/design_icon.png" alt="design" id="designimg">
                     <h4>Design</h4>
+                    <div>
+                        <p class="hidden" id="designinfo">Our design practice offers a full range 
+                            of services including brand strategy, 
+                            interaction and visual design and user experience testing.
+                             Throughout your project, our designers create and implement 
+                             visual design and workflows, solicit user feedback and work with 
+                             you to make sure what gets built is what is needed.</p>
+                    </div>
                 </div>
 
-                <div id="dev">
+                <div class="col-sm-4" id="dev">
                     <img src="assets/services_icons/dev_icon.png" alt="Development" id="devimg">
                     <h4>Development</h4>
+                    <div>
+                        <p class="hidden" id="devinfo">All engineers are fluent in the latest enterprise, 
+                            mobile and web development technologies. 
+                            They collaborate with your team to write,
+                             and improve code on a daily basis, using proven
+                              practices such as test-driven development and pair programming.</p>
+                    </div>
                 </div>
 
-                <div id="prod">
+                <div class="col-sm-4" id="prod">
                     <img src="assets/services_icons/product_icon.png" alt="product management" id="prodimg">
                     <h4>Product Management</h4>
-                </div>
-            </div>
-            <div class="icons info">
-                <div>
-                    <p class="hidden" id="designinfo">Our design practice offers a full range 
-                        of services including brand strategy, 
-                        interaction and visual design and user experience testing.
-                         Throughout your project, our designers create and implement 
-                         visual design and workflows, solicit user feedback and work with 
-                         you to make sure what gets built is what is needed.</p>
-                </div>
-
-                <div>
-                    <p class="hidden" id="devinfo">All engineers are fluent in the latest enterprise, 
-                        mobile and web development technologies. 
-                        They collaborate with your team to write,
-                         and improve code on a daily basis, using proven
-                          practices such as test-driven development and pair programming.</p>
-                </div>
-
-                <div>
-                    <p class="hidden" id="prodinfo">Planning and development is iterative. 
-                        Because we are constantly coding and testing, 
-                        the products we build are always ready to go live. 
-                        This iterative process allows for changes 
-                        as business requirements evolve.</p>
+                    <div>
+                        <p class="hidden" id="prodinfo">Planning and development is iterative. 
+                            Because we are constantly coding and testing, 
+                            the products we build are always ready to go live. 
+                            This iterative process allows for changes 
+                            as business requirements evolve.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -95,28 +91,28 @@
         <div class="portfolio">
             <h1>Portfolio</h1>
             <div class="row folio">
-                <div class="port">
+                <div class="col-sm-12 col-md-6 col-lg-3 port">
                     <img src="assets/portfolio/work1.jpg" alt="work1">
                     <div class="overlay">
                         <p>Weather information</p>
                     </div>                
                 </div>
 
-                <div class="port">
+                <div class="col-sm-12 col-md-6 col-lg-3 port">
                     <img src="assets/portfolio/work2.jpg" alt="work1">
                     <div class="overlay">
                         <p>logo</p>
                     </div>
                 </div>
 
-                <div class="port">
+                <div class="col-sm-12 col-md-6 col-lg-3 port">
                     <img src="assets/portfolio/work3.jpg" alt="work1">
                     <div class="overlay">
                         <p>Development</p>
                     </div>                  
                 </div>
 
-                <div class="port">
+                <div class="col-sm-12 col-md-6 col-lg-3 port">
                     <img src="assets/portfolio/work4.jpg" alt="work1">
                     <div class="overlay">
                         <p>Design</p>
@@ -124,28 +120,28 @@
                 </div>
             </div>
             <div class="row folio">
-                <div class="port">
+                <div class="col-sm-12 col-md-6 col-lg-3 port">
                     <img src="assets/portfolio/work5.jpg" alt="work1">
                     <div class="overlay">
                         <p>Reports</p>
                     </div>                  
                 </div>
 
-                <div class="port">
+                <div class="col-sm-12 col-md-6 col-lg-3 port">
                     <img src="assets/portfolio/work6.jpg" alt="work1">
                     <div class="overlay">
                         <p>Mobile apps</p>
                     </div>                  
                 </div>
 
-                <div class="port">
+                <div class="col-sm-12 col-md-6 col-lg-3 port">
                     <img src="assets/portfolio/work7.jpg" alt="work1">
                     <div class="overlay">
                         <p>Burned logo mock up</p>
                     </div>                  
                 </div>
 
-                <div class="port">
+                <div class="col-sm-12 col-md-6 col-lg-3 port">
                     <img src="assets/portfolio/work8.jpg" alt="work1">
                     <div class="overlay">
                         <p>Time stamps</p>
@@ -159,7 +155,7 @@
         <!-- contact us start  -->
         <div class="contact" id="contact">
             <h1>Contact Us</h1>
-            <div class="frm">
+            <div class="col-sm-12 col-md-6 col-lg-3  frm">
                 <form>
                     <div class="row">
                       <div class="col">
@@ -172,7 +168,7 @@
                       </div>
                     </div>
                     <div>
-                        <textarea name="area" type="text" id="" cols="100" rows="10" id="message"></textarea>
+                        <textarea name="area" type="text" id="" cols="30" rows="10" id="message"></textarea>
                     </div>
                     <div class="d-grid gap-2">
                         <button type="submit" class="btn btn-primary" id="submit">Submit</button>

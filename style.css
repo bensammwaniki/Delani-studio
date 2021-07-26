@@ -16,7 +16,7 @@ body p{
 }
 .banner_info{
     color: white;
-    width: fit-content;
+    width: 60%;
     height: fit-content;
     margin: auto;
     text-align: center;
@@ -98,7 +98,7 @@ body p{
 }
 .row{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 .port{
     width: fit-content;
@@ -121,14 +121,14 @@ body p{
     padding-top: 70px;
 }
 .frm{
-    width: fit-content;
+    width: 70%;
     margin: auto;
     padding: 10px;
     position: absolute;
     top: 20%;
     bottom: 20%;
-    left: 20%;
-    right: 20%;
+    left: 7%;
+    right: 7%;
 }
 form .row{
     width: 100%;
@@ -154,6 +154,7 @@ input[type=email] {
 textarea[type=text] {
     background:transparent;
     color: black;
+    width: 100%;
   }
 
 /* footer section  */

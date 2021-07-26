@@ -23,8 +23,8 @@ body p{
     font-size: 1.5em;
     position: absolute;
     top: 20%;
-    left: 30%;
-    right: 30%;
+    left: 20%;
+    right: 20%;
 }
 .mouse{
     width: fit-content;

@@ -4,6 +4,7 @@
     background-image: url("assets/backgrounds/h_img.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
 }
 .banner_info{
     color: white;
@@ -14,6 +15,13 @@
     font-size: 1.5em;
     padding: 10px;
     padding-top: 80px;
+}
+.mouse{
+    width: fit-content;
+    margin: auto;
+    position: absolute;
+    bottom: 20px;
+    left: 48%;
 }
 .about{
     margin: auto;
